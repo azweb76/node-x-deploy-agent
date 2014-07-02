@@ -1,4 +1,3 @@
-node-x-deploy-agent
-===================
+﻿# node-x-deploy-agent
 
-Deployment agent for x-deploy-api.
+

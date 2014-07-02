@@ -1,0 +1,21 @@
+{
+    "id": "deploy-agent",
+    "env": {
+        "development": "^.{2}[d]",
+        "test": "^.{2}[t]",
+        "staging": "^.{4}[s]",
+        "production": "^.{2}[pn]"
+    },
+	"messaging": {
+		"channel": "wsb-app-dev",
+		"redis": { "port": 6379, "host": "localhost" }
+	},
+	"deployApi": {
+		"url": "http://localhost:9001/",
+		"token": "zrHl59Qd3S2QTg5cD1YFJwf8NGA22NMA"
+	},
+    "scripting":  {
+        "scriptsPath":  "/var/local/scripts/",
+        "powershellPath":  "C:/WINDOWS/system32/WindowsPowerShell/v1.0/powershell.exe"
+    }
+}

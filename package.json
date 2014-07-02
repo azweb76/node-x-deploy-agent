@@ -1,0 +1,18 @@
+{
+  "name": "node_x_deploy_agent",
+  "version": "0.0.0",
+  "description": "node-x-deploy-agent",
+  "main": "lib/app.js",
+  "author": {
+    "name": "dclayton",
+    "email": ""
+  },
+  "dependencies": {
+    "redis": "^0.10.1",
+    "x-config": "0.0.14",
+    "async": "^0.9.0"
+  },
+  "scripts": {
+    "start": "node lib/index.js"
+  }
+}
