@@ -1,18 +1,22 @@
 {
-  "name": "node_x_deploy_agent",
-  "version": "0.0.0",
-  "description": "node-x-deploy-agent",
-  "main": "lib/app.js",
+  "name": "x-deploy-agent",
+  "version": "0.0.1",
+  "description": "Agent used to listen for commands from x-deploy-api.",
+  "main": "lib/index.js",
   "author": {
-    "name": "dclayton",
-    "email": ""
+    "name": "Dan Clayton",
+    "email": "dclayton@godaddy.com"
+  },
+  "bin": {
+    "xdagent": "./lib/cli.js"
   },
   "dependencies": {
+    "async": "^0.9.0",
+    "optimist": "^0.6.1",
     "redis": "^0.10.1",
-    "x-config": "0.0.14",
-    "async": "^0.9.0"
+    "x-config": "0.0.14"
   },
   "scripts": {
-    "start": "node lib/index.js"
+    "start": "node lib/cli.js"
   }
 }
