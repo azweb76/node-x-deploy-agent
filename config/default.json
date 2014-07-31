@@ -4,5 +4,9 @@
         "scriptsPath":  "/var/local/scripts/",
         "powershellPath":  "C:/WINDOWS/system32/WindowsPowerShell/v1.0/powershell.exe"
     },
+    "apiClient": {
+        "url": "http://localhost:9001/",
+        "token": "zrHl59Qd3S2QTg5cD1YFJwf8NGA22NMA"
+    },
     "systemConfig": "/etc/node/"
 }
